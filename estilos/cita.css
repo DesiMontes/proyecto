@@ -1,0 +1,84 @@
+body{
+		background-color:	#B0C4DE
+	}
+		table{
+			border: 2px solid gray;
+		}
+		div{
+		 width: 100%;
+		}
+		.nombre{
+	float:right;
+	margin-right:18%;
+}
+	.texto{
+		font-size:25px;
+	}
+	#nombre{
+		float:right;
+		margin-right:5%;
+		font-size:20px;
+	}
+	table{
+		float:right;
+		margin-right:39%;
+		background-color:#E5F6CD;
+		
+
+	}
+	.form{
+		float:right;
+		margin-right:45%;
+		font-size:150%;
+		margin-top:2%;
+	}
+	
+	.clockdate-wrapper {
+    background-color: #333;
+    padding:25px;
+    max-width:400px;
+    width:200%;
+    text-align:center;
+    border-radius:10px ;
+    margin:0 auto;
+    margin-top:20%;
+	border: 2px dotted #5FD7E8;
+}
+#clock{
+    background-color:#333;
+    font-family: Comic Sans MS;
+    font-size:70px;
+    text-shadow:0px 0px 2px #fff;
+    color:#fff;
+}
+#clock span {
+    color:#5FD7E8;
+    text-shadow:0px 2px 1px white;
+    font-size:40px;
+    position:relative;
+    
+    
+}
+#date {
+    letter-spacing:10px;
+    font-size:16px;
+    font-family:Comic Sans MS;
+    color:#5FD7E8;
+}
+.usu2{
+		float:left;
+		margin-left:70%;
+		position:fixed;
+		width:25%;
+		border: inset 2px white;
+	}
+	h2{
+		background-color:white;
+		width: 8%;
+		font-family:Comic Sans MS;
+		 border-radius:10px ;
+		 position:fixed;
+		 float:left;
+		 margin-left:5%;
+	}
+	

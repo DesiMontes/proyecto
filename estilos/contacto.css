@@ -1,0 +1,37 @@
+body{
+		background-color:	#B0C4DE
+	}
+.nombre{
+	float:right;
+	margin-right:18%;
+}
+.dir{
+	border: inset 0.2em white;
+	width:25%;
+	font-size:150%;
+	margin-top:5%;
+}
+iframe{
+	border-radius:5%;
+	float:right;
+	margin-right:10%;
+}
+h3{
+	color:red;
+}
+.telf{
+	float:right;
+	margin-right:10%;
+}
+.hor{
+	float:left;
+	margin-left:2%;
+}
+.email{
+	float:left;
+	margin-left:40%;
+}
+.volver{
+	float:right;
+	margin-right:40%;
+}

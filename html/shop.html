@@ -1,0 +1,75 @@
+	<?php
+
+$conexion = mysqli_connect('localhost', 'root', '', 'taller')or die('No se pudo conectar: ' . mysqli_error());
+mysqli_set_charset($conexion, "utf8");	
+
+$consulta = "select nombre,precio,foto from articulos";
+$res = mysqli_query($conexion, $consulta) or die ('Consulta fallida');
+$fila = mysqli_fetch_row($res);
+$foto=$fila[2];
+
+
+
+
+
+?>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../estilos/shop.css"/>
+		<img class="logo" src="../logo_1.png" alt="imagen-logo" width="200px" height="150px" >
+		
+		<h2>MontesAuto Shop <img class="carrito" src="../img/carrito.png" alt="imagen-logo" width="140px" height="100px" ></h2>
+		
+		
+	</head>
+<body>
+	<nav>
+					<ul>        
+						<li><a href="../index.php">Inicio</a></li>
+						<li><a href="#">Servicios  <img src="../img/logoservicios.png" width="30px" height="40px"></a>
+							<ul>
+								<li><a href="./php/ruedas.php">Ruedas <img src="../img/rueda1.png" width="30px" height="40px"></a></li>
+								<li><a href="#">Aire acondicionado <img src="../img/aire.png" width="30px" height="30px"></a></li>
+								<li><a href="#">Mecanica y Electricidad <img src="../img/mecanica.png" width="30px" height="30px"></a></li>
+								<li><a href="#">Revisiones <img src="../img/revision.png" width="25px" height="30px"></a></li>
+								<li><a href="#">Cambio de Aceite <img src="../img/aceite.png" width="70px" height="40px"></a></li>
+								<li><a href="#">Venta de Vehiculos <img src="../img/venta.png" width="90px" height="50px"></a></li>
+				
+							</ul>
+						</li>
+						<li><a href="php/citaPrevia.php">Pedir Cita <img src="../img/calendario.png" width="30px" height="30px"></a></li>
+						<li><a href="contacto.php">Contacto <img src="../img/contacto.png" width="30px" height="40px"></a></li>
+				
+					</ul>
+				</nav>
+
+				
+				<table>
+			
+					
+	<img src="<?php echo $foto; ?>" /></td>			
+				
+			
+				
+				</table>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

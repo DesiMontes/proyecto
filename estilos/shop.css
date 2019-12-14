@@ -1,0 +1,135 @@
+body{
+background-color:	#B0C4DE
+}
+h2{
+	float:right;
+	margin-right:10%;
+	font-family:Bradley Hand;
+	font-size:335%;
+	color:white;
+	
+	
+}
+
+	
+li{	
+    list-style-type:none;
+    position:relative;
+		
+    }
+li a{
+	border-radius: 25px;
+    text-decoration:none;
+    display:block;
+    padding:10px 28px;
+    width:150px;
+    border:5px solid #B0C4DE;
+    color:black;
+	text-aling:center;
+	margin-top:1.5%;
+    background-color:#DAA520 ;
+	font-weight: bold;
+	font-family:serif;
+	font-style: italic;
+	font-size:20px;
+	
+    }
+            
+li a:hover{
+    color:#FFDAB9 ;
+    background-color:#20B2AA ;
+    }
+            
+li>ul{
+    display:none;
+    position:absolute;
+    top:0.8px;
+	float:left;
+	margin-left:80%;
+    
+	text-aling:center;
+    }
+    
+    li:hover>ul{
+    display:block;
+    }
+            
+    li > ul >li{
+    float:left;
+	
+    }
+	nav{
+	
+	list-style-type: none;
+    
+	float:left;
+	
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+	margin-top:10%;
+	
+	
+}
+
+table {
+	
+	border-radius:0%;
+	float:right;
+	margin-right:2%;
+	width:5%;
+	
+	
+	
+	
+}
+
+
+td{
+
+	
+	border-radius:10%;
+border: solid 2px white;
+	
+	
+}
+.usu2{
+		float:right;
+		
+		
+		width:15%;
+		
+		border: inset 2px white;
+	}
+
+
+.botoncarrito{
+	height:2em;
+	float:left;
+	margin-left:40%;
+}
+input{
+	radius-button:5%;
+	border-radius:10%;
+	color: black;
+	background-color:beige;
+	radius-button:10%;
+	
+	
+}
+.cantidad{
+	margin-top:2%;
+	width:34%;
+	float:left;
+	margin-left:10%;
+}
+.boton{
+	margin-top:4%;
+	
+}
+
+.imagenes{
+	height:6em;
+}
+.nologin{
+	color:red;
+}

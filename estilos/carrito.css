@@ -1,0 +1,72 @@
+body{
+		background-color:	#B0C4DE
+	}
+.usu2{
+		width :15%;
+	border: inset 0.2em white;
+		
+		float:right;
+	}
+tr,td,th{
+	border: solid 0.1em white;
+}
+.nombre{
+	float:right;
+	margin-right:10%;
+	
+}
+.compra{
+	font-size:170%;
+	float:left;
+	margin-top:10%;
+	width:20%;
+}
+.fin{
+	font-size:150%;
+	float:right;
+	
+	width:20%;
+	border-radius:10%;
+	background-color:blue;
+	color:white;
+	margin-right:40%;
+	
+}
+.vaciar{
+	font-size:150%;
+	float:right;
+	
+	width:20%;
+	border-radius:10%;
+	background-color:#DEB887;
+	color:black;
+	margin-right:40%;
+	
+}
+table{
+	float:right;
+	
+	margin-right:100%;
+}
+h1{
+	float:left;
+	margin-left:20%;
+}
+h3{
+	float:left;
+	margin-left:15%;
+	margin-top:10%;
+	font-size:200%;
+	
+	border-style: double;
+	border-color: red green blue yellow;
+}
+h4{
+	float:right;
+	margin-right:35%;
+	
+	font-size:200%;
+	
+	border-style: double;
+	border-color: red green blue yellow;
+}
